@@ -794,8 +794,8 @@ body.active {
 
   /* TWO images now */
   background:
-    url("./images/SmallGold.PNG") no-repeat,
-    url("./images/SmallGold.PNG") no-repeat;
+    url("./images/LargeGold.PNG") no-repeat,
+    url("./images/LargeGold.PNG") no-repeat;
 
   background-size:
     140% auto,
@@ -829,7 +829,7 @@ body.active {
   pointer-events: none;
   z-index: 0;
 
-  background: url("./images/SmallGold.PNG") no-repeat;
+  background: url("./images/LargeGold.PNG") no-repeat;
 
   background-size: 150% auto;
 
@@ -884,6 +884,7 @@ body.active {
     background-position: left -120px bottom -200px;
   }
 }
+
 
 
 
