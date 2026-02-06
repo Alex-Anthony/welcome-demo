@@ -47,6 +47,18 @@ const projectCards = [
     'live link': './images/_ISE490__Real_Estate_Prediction_in_NYC.pdf',
     'source link': 'https://github.com/Alex-Anthony/NYC-Real-Estate-Valuation-Model',
   },
+   {
+  name: 'NYC Property Valuation Dashboard — Product UI',
+  description:
+    'Designed a decision-support dashboard to visualize simulated tax scenarios and borough-level volatility. Built interactive wireframes and high-fidelity Figma prototypes focused on clarity, accessibility, and policy insight for non-technical stakeholders.',
+  image: './images/project-nyc-ui.svg',
+  technologies: ['Figma', 'UX Research', 'Dashboards', 'Data Viz', 'Product Design'],
+  company: 'Product / Analytics',
+  type: 'UI / Design',
+  year: '2026',
+  'live link': 'https://www.figma.com/design/rVIXTO9Z9uJnxOhFaHh0q9/IDE490?node-id=0-1&t=yA4fpwxLTVCZ4Cer-1', // figma prototype link
+  'source link': '#'
+},
   {
     name: 'Laguna Prototype — Hybrid Drivetrain Decision Support',
     description:
@@ -59,6 +71,30 @@ const projectCards = [
     'live link': './images/EXPO25PosterFinalDrive.pdf',
     'source link': './images/SolidSS.png',
   },
+   {
+  name: 'EEG Translation → Avatar Command System',
+  description:
+    'An EEG-to-intent translation prototype that maps specific mental states into actionable commands. I focused on the “augmented output” layer: turning deep learning model outputs into reliable in-app actions that drive an avatar (VR/AR + gaming-style controls).',
+  image: './images/project-eeg.svg', // replace with your screenshot
+  technologies: ['Figma', 'GitHub', 'Deep Learning', 'HCI', 'Prototyping'],
+  company: 'Research / Prototype',
+  type: 'UI + Systems',
+  year: '2025–2026',
+  'live link': 'https://www.figma.com/design/BfEPkZ5Nt219JJT9vtkIIr/Analytics-%E2%80%94-Landing-Page-Design--Community-?node-id=0-1&t=Rla1uhyUrRjcEVuC-1',   // figma prototype link
+  'source link': 'https://github.com/Alex-Anthony/CS-SSW-555-Team-13-TechTitans-Project2', // github repo link
+},
+{
+  name: 'Continuous Blood Pressure Monitoring (REU Poster)',
+  description:
+    'Research poster on continuous BP estimation using pulse wave velocity (PWV) measured at the dorsalis pedis artery with a small-footprint piezoresistive pressure sensor + Arduino-based real-time processing (smoothing + peak detection).',
+  image: './images/project-bp-poster.svg', // use a poster preview image
+  technologies: ['Research', 'Arduino', 'Signal Processing', 'Sensors', 'Poster Design'],
+  company: 'FIU / NSF REU',
+  type: 'BioSensing',
+  year: '2024',
+  'live link': './images/Poster-REU-2.pdf, // or host it
+  'source link': 'https://github.com/Alex-Anthony/Cufless-Blood-Pressure-Monitoring-Research-Collection', // optional: repo w/ code + methods
+},
 ];
 
 hamburger.addEventListener('click', () => {
@@ -160,6 +196,7 @@ document.querySelectorAll('#skills .skill-btn').forEach((btn) => {
     }
   });
 });
+
 
 
 
