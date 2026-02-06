@@ -841,7 +841,7 @@ body.active {
   #headline::before {
     background-image:
       url("./images/LargeGold.PNG"),
-      url("./images/medGold.PNG");
+      url("./images/LargeGold.PNG");
 
     background-size:
       70% auto,
@@ -852,6 +852,7 @@ body.active {
       left -120px bottom -160px;
   }
 }
+
 
 
 
