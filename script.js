@@ -23,18 +23,6 @@ const emailErrorMsg = document.querySelector('#email-error-msg');
 
 const projectCards = [
   {
-    name: 'Desktop eBay App — GUI Prototype',
-    description:
-      'UI prototype for a desktop eBay-style app: structured use cases, main/alternate flows, and screens aligned to user goals and error states.',
-    image: './images/project-ebay-gui.svg',
-    technologies: ['UI Design', 'Use Cases', 'Flows', 'Figma'],
-    company: 'Course Project',
-    type: 'UI / Product',
-    year: '2025–2026',
-    'live link': '#',
-    'source link': '#',
-  },
-  {
     name: 'NYC Property Valuation — Monte Carlo + ML Pipeline',
     description:
       'End-to-end valuation analysis using NYC property/tax data, with simulation-driven “future worlds,” model evaluation, and insights on volatility and equity.',
@@ -224,4 +212,5 @@ formMessage.addEventListener('change', () => {
   storage.setItem('formData', JSON.stringify(inputData));
 
 });
+
 
