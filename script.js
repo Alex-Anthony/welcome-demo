@@ -156,6 +156,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ---------- Popup (guarded) ----------
+  const popupCompany = document.querySelector('#popup-company');
+  const popupType = document.querySelector('#popup-type');
+  const popupYear = document.querySelector('#popup-year');
+  
   const popupReady =
     popupOverlay &&
     closeBtn &&
@@ -166,32 +170,37 @@ document.addEventListener('DOMContentLoaded', () => {
     sourceLink &&
     skillsList &&
     popupBg;
-
+  
   if (popupReady && projectsDiv) {
     const ul = document.createElement('ul');
     ul.className = 'project-languages';
     skillsList.prepend(ul);
-
+  
     function populatePopupWindow(index) {
       ul.innerHTML = '';
+  
       const p = projectCards[index];
       if (!p) return;
-
+  
+      if (popupCompany) popupCompany.textContent = p.company || 'PROJECT';
+      if (popupType) popupType.textContent = p.type || 'UI / Product';
+      if (popupYear) popupYear.textContent = p.year || '2026';
+  
       popupHeader.innerText = p.name;
       popupImg.src = p.image;
       popupDescription.innerText = p.description;
-
+  
       (p.technologies || []).forEach((skill) => {
         const li = document.createElement('li');
         li.className = 'language';
         li.innerText = skill;
         ul.appendChild(li);
       });
-
+  
       liveLink.href = p['live link'] || '#';
       sourceLink.href = p['source link'] || '#';
     }
-
+  
     const projectBtn = document.querySelectorAll('.project .enabled-btn');
     projectBtn.forEach((btn) => {
       btn.addEventListener('click', () => {
@@ -201,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
         populatePopupWindow(Array.prototype.indexOf.call(projectBtn, btn));
       });
     });
-
+  
     closeBtn.addEventListener('click', () => {
       popupOverlay.classList.remove('active');
       body.classList.remove('active');
@@ -210,6 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
   } else {
     console.warn('Popup elements missing — skipping popup wiring.');
   }
+
 
   // ---------- Skills accordion (guarded) ----------
   const skillsRoot = document.querySelector('#skills');
@@ -240,6 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
 
 
 
