@@ -51,7 +51,7 @@ const projectCards = [
     name: 'Laguna Prototype — Hybrid Drivetrain Decision Support',
     description:
       'Systems + quantitative modeling to support drivetrain decisions (mid-rear engine, sequential gearbox, reverse strategy via mild hybrid). Focus on tradeoffs, constraints, and justification.',
-    image: './images/EXPO25PosterFinalDrive.pdf',
+    image: './images/Shoreline.png',
     technologies: ['Systems Modeling', 'Simulation', 'Requirements', 'Trade Studies'],
     company: 'Shoreline Bespoke (Academic/Team)',
     type: 'Engineering Management',
@@ -136,6 +136,7 @@ closeBtn.addEventListener('click', () => {
   body.classList.remove('active');
   popupBg.classList.remove('active');
 });
+
 
 
 
