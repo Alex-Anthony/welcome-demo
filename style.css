@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
 
 :root {
-  --primary-color: #8B2F47;
-  --header-color: #8B2F47;
+  --primary-color: #D3AF37;
+  --header-color: #D3AF37;
   --paragraph-color: #faf9f6;
   --white-bg-color: #1A1A1A;
   --enabled-btn-color: #7f8cff;
@@ -852,6 +852,7 @@ body.active {
       left -120px bottom -160px;
   }
 }
+
 
 
 
