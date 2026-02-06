@@ -848,10 +848,11 @@ body.active {
       50% auto;
 
     background-position:
-      right -180px top 120px,
+      right -120px top 100px,
       left -120px bottom -160px;
   }
 }
+
 
 
 
