@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
 
 :root {
-  --primary-color: #92364E;
-  --header-color: #74001F;
-  --paragraph-color: #DDDDDD;
-  --white-bg-color: #fff;
+  --primary-color: #8B2F47;
+  --header-color: #8B2F47;
+  --paragraph-color: #E0E0E0;
+  --white-bg-color: #1A1A1A;
   --enabled-btn-color: #7f8cff;
-  --border-gray-color: #5D5B5C;
-  --text-soft-white-color: #DDDDDD;
+  --border-gray-color: #404040;
+  --text-soft-white-color: #E0E0E0;
   --active-btn-color: #2230d2;
   --disabled-btn-color: #5e6c84;
 }
-
 body {
   font-family: 'Texturina', serif;
-  background-color: #ffffff;
+  background-color: #0D0D0D;
   margin: 0;
   overflow-x: hidden;
 }
@@ -909,6 +908,7 @@ body.active {
     border-radius: 2px;
   }
 }
+
 
 
 
