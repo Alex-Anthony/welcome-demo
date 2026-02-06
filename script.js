@@ -59,18 +59,6 @@ const projectCards = [
     'live link': '#',
     'source link': '#',
   },
-  {
-    name: 'Smart City Transportation — MBSE (SysML)',
-    description:
-      'MBSE artifacts including activity flows, internal block structure, and a parametric model to support traceable requirements and design rationale.',
-    image: './images/project-smart-city-sysml.svg',
-    technologies: ['SysML', 'MBSE', 'Parametrics', 'Architecture'],
-    company: 'MBSE Project',
-    type: 'Systems / Management',
-    year: '2025',
-    'live link': '#',
-    'source link': '#',
-  },
 ];
 
 hamburger.addEventListener('click', () => {
@@ -148,5 +136,6 @@ closeBtn.addEventListener('click', () => {
   body.classList.remove('active');
   popupBg.classList.remove('active');
 });
+
 
 
