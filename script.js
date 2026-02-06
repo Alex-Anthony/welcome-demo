@@ -32,7 +32,7 @@ const projectCards = [
   type: 'UI / Portfolio',
   year: '2025',
   'live link': 'https://www.figma.com/proto/DzyPgbhChVEae7884CSSeg/DraftOne?node-id=0-1&t=RZc3meqzKPadbjnk-1',
-  'source link': '#',
+  'source link': 'https://github.com/Alex-Anthony',
 },
 
   {
@@ -44,20 +44,20 @@ const projectCards = [
     company: 'Data / Simulation',
     type: 'Product Analytics',
     year: '2025–2026',
-    'live link': '#',
-    'source link': '#',
+    'live link': './images/_ISE490__Real_Estate_Prediction_in_NYC.pdf',
+    'source link': 'https://github.com/Alex-Anthony/NYC-Real-Estate-Valuation-Model',
   },
   {
     name: 'Laguna Prototype — Hybrid Drivetrain Decision Support',
     description:
       'Systems + quantitative modeling to support drivetrain decisions (mid-rear engine, sequential gearbox, reverse strategy via mild hybrid). Focus on tradeoffs, constraints, and justification.',
-    image: './images/project-laguna-hybrid.svg',
+    image: './images/EXPO25PosterFinalDrive.pdf',
     technologies: ['Systems Modeling', 'Simulation', 'Requirements', 'Trade Studies'],
     company: 'Shoreline Bespoke (Academic/Team)',
     type: 'Engineering Management',
     year: '2024–2025',
-    'live link': '#',
-    'source link': '#',
+    'live link': './images/EXPO25PosterFinalDrive.pdf',
+    'source link': './images/SolidSS.png',
   },
 ];
 
@@ -136,6 +136,7 @@ closeBtn.addEventListener('click', () => {
   body.classList.remove('active');
   popupBg.classList.remove('active');
 });
+
 
 
 
