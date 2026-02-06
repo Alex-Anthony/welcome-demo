@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
       name: 'Continuous Blood Pressure Monitoring (REU Poster)',
       description:
         'Research poster on continuous BP estimation using pulse wave velocity (PWV) measured at the dorsalis pedis artery with a small-footprint piezoresistive pressure sensor + Arduino-based real-time processing (smoothing + peak detection).',
-      image: './images/project-bp-poster.svg',
+      image: './images/Poster-REU-2.png',
       technologies: ['Research', 'Arduino', 'Signal Processing', 'Sensors', 'Poster Design'],
       company: 'FIU / NSF REU',
       type: 'BioSensing',
@@ -240,5 +240,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
 
 
