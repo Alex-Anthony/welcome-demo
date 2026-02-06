@@ -796,7 +796,7 @@ body.active {
   opacity: 0.9;
 
   background-image:
-    url("./images/LargeGold.PNG"),
+    url("./images/SmallGold.PNG"),
     url("./images/SmallGold.PNG");
 
   background-repeat: no-repeat, no-repeat;
@@ -832,7 +832,7 @@ body.active {
       65% auto;
 
     background-position:
-      right -180px top 80px,
+      right -180px top 120px,
       left -140px bottom -140px;
   }
 }
@@ -854,6 +854,49 @@ body.active {
 }
 
 
+
+/* ========================================
+   About section gold swoops
+   ======================================== */
+
+#about-myself {
+  position: relative;
+  overflow: hidden;
+}
+
+#about-myself::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.6;
+
+  background-image:
+    url("./images/SmallGold.PNG");
+
+  background-repeat: no-repeat;
+
+  /* bottom-left accent */
+  background-size: 120% auto;
+  background-position: left -220px bottom -140px;
+}
+
+@media (min-width: 768px) {
+  #about-myself::before {
+    background-image: url("./images/medGold.PNG");
+    background-size: 80% auto;
+    background-position: left -160px bottom -160px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #about-myself::before {
+    background-image: url("./images/LargeGold.PNG");
+    background-size: 65% auto;
+    background-position: left -120px bottom -180px;
+  }
+}
 
 
 
