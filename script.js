@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
       type: 'UI + Systems',
       year: '2025–2026',
       'live link':
-        'figma.com/proto/BfEPkZ5Nt219JJT9vtkIIr/Analytics-—-Landing-Page-Design--Community-?node-id=0-1&p=f&t=UiPwvDfbFUKOZu5D-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
+        'https://www.figma.com/proto/BfEPkZ5Nt219JJT9vtkIIr/Analytics-%E2%80%94-Landing-Page-Design--Community-?node-id=1-178&p=f&t=D6XuD8OIG7vf0tB2-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
       'source link': 'https://github.com/Alex-Anthony/CS-SSW-555-Team-13-TechTitans-Project2',
     },
     {
@@ -250,6 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
 
 
 
