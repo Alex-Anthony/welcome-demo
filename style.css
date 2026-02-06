@@ -796,7 +796,7 @@ body.active {
   opacity: 0.9;
 
   background-image:
-    url("./images/SmallGold.PNG"),
+    url("./images/LargeGold.PNG"),
     url("./images/SmallGold.PNG");
 
   background-repeat: no-repeat, no-repeat;
@@ -852,6 +852,7 @@ body.active {
       left -120px bottom -160px;
   }
 }
+
 
 
 
