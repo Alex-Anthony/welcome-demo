@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: 'EEG Translation → Avatar Command System',
       description:
-        'An EEG-to-intent translation prototype that maps specific mental states into actionable commands. I focused on the “augmented output” layer: turning deep learning model outputs into reliable in-app actions that drive an avatar (VR/AR + gaming-style controls).',
+        'An EEG-to-intent translation prototype that maps specific mental states into actionable commands. I the goal of this project was turning deep learning model outputs into reliable in-app actions that drive an avatar.',
       image: './images/project-eeg.png',
       technologies: ['Figma', 'GitHub', 'Deep Learning', 'HCI', 'Prototyping'],
       company: 'Research / Prototype',
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
       company: 'FIU / NSF REU',
       type: 'BioSensing',
       year: '2024',
-      'live link': './images/Poster-REU-2.png',
+      'live link': './images/Poster-REU-2.pdf',
       'source link':
         'https://github.com/Alex-Anthony/Cufless-Blood-Pressure-Monitoring-Research-Collection',
     },
@@ -240,4 +240,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
 
