@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
 
 :root {
   --primary-color: #6070ff;
@@ -909,5 +909,6 @@ body.active {
     border-radius: 2px;
   }
 }
+
 
 
