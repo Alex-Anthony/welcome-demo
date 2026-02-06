@@ -89,7 +89,29 @@ document.querySelectorAll('.mobile-nav-link').forEach((link) => link.addEventLis
 projectCards.forEach((project) => {
   const projectCard = document.createElement('div');
   projectCard.className = 'project';
-  projectCard.innerHTML = `<img class="project-screenshot" src="${project.image}" alt="screenshot of Tonic project"> <div class="project-div"> <h2 class="project-title">${project.name}</h2> <p class="project-info"> <span class="project-company">CANOPY</span> <span><img src="./images/Counter.png" alt=" "></span> <span class="project-type">Back End Dev</span> <span><img src="./images/Counter.png" alt=" "></span> <span class="project-year">2015</span> </p> <p class="project-description">${project.description}</p> <ul class="project-languages">${project.technologies.map((tech) => `<li class='language'>${tech}</li>`).join('')}</ul> <button class="enabled-btn">See Project</button> </div>`;
+  projectCard.innerHTML = `
+  <img class="project-screenshot" src="${project.image}" alt="screenshot of ${project.name} project">
+  <div class="project-div">
+    <h2 class="project-title">${project.name}</h2>
+
+    <p class="project-info">
+      <span class="project-company">${project.company || 'PROJECT'}</span>
+      <span><img src="./images/Counter.png" alt=" "></span>
+      <span class="project-type">${project.type || 'UI / Product'}</span>
+      <span><img src="./images/Counter.png" alt=" "></span>
+      <span class="project-year">${project.year || '2026'}</span>
+    </p>
+
+    <p class="project-description">${project.description}</p>
+
+    <ul class="project-languages">
+      ${project.technologies.map((tech) => `<li class='language'>${tech}</li>`).join('')}
+    </ul>
+
+    <button class="enabled-btn">See Project</button>
+  </div>
+`;
+
   projectsDiv.appendChild(projectCard);
 });
 
@@ -202,3 +224,4 @@ formMessage.addEventListener('change', () => {
   storage.setItem('formData', JSON.stringify(inputData));
 
 });
+
