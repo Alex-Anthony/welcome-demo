@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const popupHeader = document.querySelector('#popup-content h2');
   const popupImg = document.querySelector('#popup-img');
   const popupDescription = document.querySelector('#popup-description');
-  const liveLink = document.querySelector('.live-link');
-  const sourceLink = document.querySelector('.source-link');
+  const liveLink = document.querySelector('#popup-content .live-link');
+  const sourceLink = document.querySelector('#popup-content .source-link');
   const skillsList = document.querySelector('#popup-skills-buttons');
   const popupBg = document.querySelector('#popup-bg');
 
@@ -240,6 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
 
 
 
