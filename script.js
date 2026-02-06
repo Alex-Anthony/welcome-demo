@@ -43,7 +43,7 @@ const projectCards = [
     technologies: ['Python', 'Pandas', 'Monte Carlo', 'ML Modeling'],
     company: 'Data / Simulation',
     type: 'Product Analytics',
-    year: '2025–2026',
+    year: '2023–2024',
     'live link': './images/_ISE490__Real_Estate_Prediction_in_NYC.pdf',
     'source link': 'https://github.com/Alex-Anthony/NYC-Real-Estate-Valuation-Model',
   },
@@ -136,6 +136,7 @@ closeBtn.addEventListener('click', () => {
   body.classList.remove('active');
   popupBg.classList.remove('active');
 });
+
 
 
 
