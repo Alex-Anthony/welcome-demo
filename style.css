@@ -3,7 +3,7 @@
 :root {
   --primary-color: #8B2F47;
   --header-color: #8B2F47;
-  --paragraph-color: #E0E0E0;
+  --paragraph-color: #faf9f6;
   --white-bg-color: #1A1A1A;
   --enabled-btn-color: #7f8cff;
   --border-gray-color: #404040;
@@ -908,6 +908,7 @@ body.active {
     border-radius: 2px;
   }
 }
+
 
 
 
