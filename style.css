@@ -134,7 +134,7 @@ body.active {
   max-width: 375px;
   height: 700px;
   margin: 0 auto;
-  background: var(--white-bg-color) url(./images/header-shapes-mobile.png) 0 45px no-repeat;
+  background-color: var(--white-bg-color);
   border-bottom-left-radius: 80px;
 }
 
@@ -557,7 +557,7 @@ body.active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: var(--white-bg-color) url(./images/header-bg-desktop.png) 100% 118px no-repeat;
+    background-color: var(--white-bg-color);;
     background-size: contain;
     border-bottom-left-radius: 150px;
   }
@@ -801,6 +801,47 @@ body.active {
 /* Optional: subtle separation between blocks */
 #skills .skill-panel.open {
   border-bottom: 1px solid rgba(64, 64, 64, 0.35);
+}
+
+/* ===== Gold swoop decoration ===== */
+
+#headline {
+  position: relative;
+  overflow: hidden;
+}
+
+#headline::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+
+  background: url("./images/SmallGold.png") no-repeat;
+  background-size: 140% auto;
+  background-position: right -280px top -120px;
+  opacity: 0.9;
+}
+
+#headline-content {
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  #headline::before {
+    background-image: url("./images/MedGold.png");
+    background-size: 85% auto;
+    background-position: right -220px top 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #headline::before {
+    background-image: url("./images/LargeGold.png");
+    background-size: 70% auto;
+    background-position: right -180px top 40px;
+  }
 }
 
 
