@@ -778,7 +778,8 @@ body.active {
    GOLD SWOOP DECORATIONS (FINAL POSITIONING)
    ======================================== */
 
-/* ---------- HERO (top right swoop) ---------- */
+/* ===== HERO SWOOPS (top-right + bottom-left) ===== */
+
 #headline {
   position: relative;
   overflow: hidden;
@@ -791,11 +792,20 @@ body.active {
   pointer-events: none;
   z-index: 0;
 
-  background: url("./images/SmallGold.PNG") no-repeat;
+  /* TWO images now */
+  background:
+    url("./images/SmallGold.PNG") no-repeat,
+    url("./images/SmallGold.PNG") no-repeat;
 
-  /* moved RIGHT + DOWN for better framing */
-  background-size: 140% auto;
-  background-position: right -420px top 120px;
+  background-size:
+    140% auto,
+    120% auto;
+
+  /* 1️⃣ top-right → moved DOWN ~1 inch
+     2️⃣ bottom-left → restored */
+  background-position:
+    right -420px top 200px,
+    left -260px bottom -120px;
 
   opacity: 0.9;
 }
@@ -805,8 +815,8 @@ body.active {
   z-index: 1;
 }
 
+/* ===== ABOUT SWOOP ===== */
 
-/* ---------- ABOUT SECTION (bottom accent swoop) ---------- */
 #about-myself {
   position: relative;
   overflow: hidden;
@@ -821,19 +831,18 @@ body.active {
 
   background: url("./images/SmallGold.PNG") no-repeat;
 
-  /* moved UP about 2 inches */
   background-size: 150% auto;
-  background-position: left -260px bottom -320px;
+
+  /* moved UP ~1 inch */
+  background-position: left -260px bottom -400px;
 
   opacity: 0.6;
 }
 
-/* keep content above swoop */
 #about-myself > * {
   position: relative;
   z-index: 1;
 }
-
 
 /* ---------- TABLET ---------- */
 @media (min-width: 768px) {
@@ -875,6 +884,7 @@ body.active {
     background-position: left -120px bottom -200px;
   }
 }
+
 
 
 
