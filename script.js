@@ -23,36 +23,52 @@ const emailErrorMsg = document.querySelector('#email-error-msg');
 
 const projectCards = [
   {
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: './images/SnapshootPortfolio1.svg',
-    technologies: ['html', 'css', 'javaScript', 'github'],
-    'live link': 'https://ha-manel.github.io/Microverse-Portfolio/',
-    'source link': 'https://github.com/ha-manel/Microverse-Portfolio',
+    name: 'Desktop eBay App — GUI Prototype',
+    description:
+      'UI prototype for a desktop eBay-style app: structured use cases, main/alternate flows, and screens aligned to user goals and error states.',
+    image: './images/project-ebay-gui.svg',
+    technologies: ['UI Design', 'Use Cases', 'Flows', 'Figma'],
+    company: 'Course Project',
+    type: 'UI / Product',
+    year: '2025–2026',
+    'live link': '#',
+    'source link': '#',
   },
   {
-    name: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: './images/SnapshootPortfolio2.svg',
-    technologies: ['html', 'css', 'javaScript', 'ruby'],
-    'live link': 'https://ha-manel.github.io/Microverse-Portfolio/',
-    'source link': 'https://github.com/ha-manel/Microverse-Portfolio',
+    name: 'NYC Property Valuation — Monte Carlo + ML Pipeline',
+    description:
+      'End-to-end valuation analysis using NYC property/tax data, with simulation-driven “future worlds,” model evaluation, and insights on volatility and equity.',
+    image: './images/project-nyc-valuation.svg',
+    technologies: ['Python', 'Pandas', 'Monte Carlo', 'ML Modeling'],
+    company: 'Data / Simulation',
+    type: 'Product Analytics',
+    year: '2025–2026',
+    'live link': '#',
+    'source link': '#',
   },
   {
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: './images/SnapshootPortfolio3.svg',
-    technologies: ['html', 'css', 'javaScript'],
-    'live link': 'https://ha-manel.github.io/Microverse-Portfolio/',
-    'source link': 'https://github.com/ha-manel/Microverse-Portfolio',
+    name: 'Laguna Prototype — Hybrid Drivetrain Decision Support',
+    description:
+      'Systems + quantitative modeling to support drivetrain decisions (mid-rear engine, sequential gearbox, reverse strategy via mild hybrid). Focus on tradeoffs, constraints, and justification.',
+    image: './images/project-laguna-hybrid.svg',
+    technologies: ['Systems Modeling', 'Simulation', 'Requirements', 'Trade Studies'],
+    company: 'Shoreline Bespoke (Academic/Team)',
+    type: 'Engineering Management',
+    year: '2024–2025',
+    'live link': '#',
+    'source link': '#',
   },
   {
-    name: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: './images/SnapshootPortfolio4.svg',
-    technologies: ['html', 'css', 'javaScript', 'bootstrap'],
-    'live link': 'https://ha-manel.github.io/Microverse-Portfolio/',
-    'source link': 'https://github.com/ha-manel/Microverse-Portfolio',
+    name: 'Smart City Transportation — MBSE (SysML)',
+    description:
+      'MBSE artifacts including activity flows, internal block structure, and a parametric model to support traceable requirements and design rationale.',
+    image: './images/project-smart-city-sysml.svg',
+    technologies: ['SysML', 'MBSE', 'Parametrics', 'Architecture'],
+    company: 'MBSE Project',
+    type: 'Systems / Management',
+    year: '2025',
+    'live link': '#',
+    'source link': '#',
   },
 ];
 
@@ -184,4 +200,5 @@ formMessage.addEventListener('change', () => {
   inputData.email = email.value;
   inputData.message = formMessage.value;
   storage.setItem('formData', JSON.stringify(inputData));
+
 });
