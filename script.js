@@ -22,6 +22,18 @@ const formMessage = document.querySelector('#message');
 const emailErrorMsg = document.querySelector('#email-error-msg');
 
 const projectCards = [
+    {
+    name: 'UI Case Study: Marketplace Redesign',
+    description:
+      'A UI/UX-focused redesign that improves navigation, readability, and conversion with a clean component-driven layout.',
+    image: './images/project1.svg', // swap with your screenshot path
+    technologies: ['Figma', 'UI Design', 'Design Systems', 'Accessibility'],
+    company: 'Personal Project',
+    type: 'UI / Product',
+    year: '2026',
+    'live link': '#', // add your live link later
+    'source link': '#', // add repo link later (or keep #)
+  },
   {
     name: 'NYC Property Valuation — Monte Carlo + ML Pipeline',
     description:
@@ -212,5 +224,6 @@ formMessage.addEventListener('change', () => {
   storage.setItem('formData', JSON.stringify(inputData));
 
 });
+
 
 
