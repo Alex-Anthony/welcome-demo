@@ -26,7 +26,7 @@ const projectCards = [
   name: 'Artist Portfolio — Figma UI Mockup',
   description:
     'Portfolio website concept for a digital artist: bold hero, character-focused gallery layout, and a clean navigation flow optimized for showcasing portrait work.',
-  image: './images/project-artist-figma.svg', // screenshot of your mockup
+  image: './images/VIVIPOrt.png', // screenshot of your mockup
   technologies: ['Figma', 'UI Design', 'Typography', 'Layout'],
   company: 'Client Mockup',
   type: 'UI / Portfolio',
@@ -39,7 +39,7 @@ const projectCards = [
     name: 'NYC Property Valuation — Monte Carlo + ML Pipeline',
     description:
       'End-to-end valuation analysis using NYC property/tax data, with simulation-driven “future worlds,” model evaluation, and insights on volatility and equity.',
-    image: './images/project-nyc-valuation.svg',
+    image: './images/project-nyc-valuation.png',
     technologies: ['Python', 'Pandas', 'Monte Carlo', 'ML Modeling'],
     company: 'Data / Simulation',
     type: 'Product Analytics',
@@ -136,6 +136,7 @@ closeBtn.addEventListener('click', () => {
   body.classList.remove('active');
   popupBg.classList.remove('active');
 });
+
 
 
 
