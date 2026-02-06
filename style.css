@@ -775,128 +775,108 @@ body.active {
 }
 
 /* ========================================
-   Gold swoop hero decoration (FINAL)
+   GOLD SWOOP DECORATIONS (FINAL POSITIONING)
    ======================================== */
 
+/* ---------- HERO (top right swoop) ---------- */
 #headline {
   position: relative;
   overflow: hidden;
 }
 
-/* two decorative swoops */
 #headline::before {
   content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
+  z-index: 0;
 
-  /* above background, below text */
-  z-index: 2;
+  background: url("./images/SmallGold.PNG") no-repeat;
+
+  /* moved RIGHT + DOWN for better framing */
+  background-size: 140% auto;
+  background-position: right -420px top 120px;
 
   opacity: 0.9;
-
-  background-image:
-    url("./images/SmallGold.PNG"),
-    url("./images/SmallGold.PNG");
-
-  background-repeat: no-repeat, no-repeat;
-
-  /* mobile sizing */
-  background-size:
-    130% auto,
-    100% auto;
-
-  /* top-right + bottom-left */
-  background-position:
-    right -340px top 180px,
-    left -220px bottom -120px;
 }
 
-/* keep text above swoops */
 #headline-content {
   position: relative;
-  z-index: 3;
+  z-index: 1;
 }
 
 
-/* ================= DESKTOP ================= */
-
-@media (min-width: 768px) {
-  #headline::before {
-    background-image:
-      url("./images/medGold.PNG"),
-      url("./images/medGold.PNG");
-
-    background-size:
-      85% auto,
-      65% auto;
-
-    background-position:
-      right -180px top 120px,
-      left -140px bottom -140px;
-  }
-}
-
-@media (min-width: 1200px) {
-  #headline::before {
-    background-image:
-      url("./images/LargeGold.PNG"),
-      url("./images/LargeGold.PNG");
-
-    background-size:
-      70% auto,
-      50% auto;
-
-    background-position:
-      right -120px top 100px,
-      left -120px bottom -160px;
-  }
-}
-
-
-
-/* ========================================
-   About section gold swoops
-   ======================================== */
-
+/* ---------- ABOUT SECTION (bottom accent swoop) ---------- */
 #about-myself {
   position: relative;
   overflow: hidden;
 }
 
-#about-myself::before {
+#about-myself::after {
   content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
-  z-index: 1;
+  z-index: 0;
+
+  background: url("./images/SmallGold.PNG") no-repeat;
+
+  /* moved UP about 2 inches */
+  background-size: 150% auto;
+  background-position: left -260px bottom -320px;
+
   opacity: 0.6;
-
-  background-image:
-    url("./images/SmallGold.PNG");
-
-  background-repeat: no-repeat;
-
-  /* bottom-left accent */
-  background-size: 120% auto;
-  background-position: left -220px bottom -140px;
 }
 
+/* keep content above swoop */
+#about-myself > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* ---------- TABLET ---------- */
 @media (min-width: 768px) {
-  #about-myself::before {
+
+  #headline::before {
     background-image: url("./images/medGold.PNG");
-    background-size: 80% auto;
-    background-position: left -160px bottom -160px;
+
+    /* pushed farther RIGHT */
+    background-size: 90% auto;
+    background-position: right -360px top 60px;
+  }
+
+  #about-myself::after {
+    background-image: url("./images/medGold.PNG");
+
+    /* moved UP more */
+    background-size: 100% auto;
+    background-position: left -200px bottom -260px;
   }
 }
 
+
+/* ---------- DESKTOP ---------- */
 @media (min-width: 1200px) {
-  #about-myself::before {
+
+  #headline::before {
     background-image: url("./images/LargeGold.PNG");
-    background-size: 65% auto;
-    background-position: left -120px bottom -180px;
+
+    /* more right */
+    background-size: 70% auto;
+    background-position: right -320px top 40px;
+  }
+
+  #about-myself::after {
+    background-image: url("./images/LargeGold.PNG");
+
+    /* higher placement */
+    background-size: 80% auto;
+    background-position: left -120px bottom -200px;
   }
 }
+
+
 
 
 
