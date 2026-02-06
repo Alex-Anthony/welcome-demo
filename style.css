@@ -651,35 +651,6 @@ body.active {
     margin: 143px 0 0 37px;
   }
 
-  #skills > ul {
-    width: 100%;
-  }
-
-  .skill {
-    width: 100%;
-    padding-left: 20px;
-  }
-
-  .skill-languages {
-    flex-direction: row;
-    margin-left: 20px;
-  }
-
-  .skill-languages .language {
-    width: 122px;
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 12px;
-  }
-
-  .skill-languages .language img {
-    margin-bottom: 16px;
-    margin-right: 0;
-  }
-
   #form-section {
     width: 100%;
     max-width: none;
@@ -843,6 +814,7 @@ body.active {
     background-position: right -180px top 40px;
   }
 }
+
 
 
 
