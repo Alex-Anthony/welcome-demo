@@ -50,13 +50,13 @@ document.addEventListener('DOMContentLoaded', () => {
       name: 'NYC Property Valuation Dashboard — Product UI',
       description:
         'Designed a decision-support dashboard to visualize simulated tax scenarios and borough-level volatility. Built interactive wireframes and high-fidelity Figma prototypes focused on clarity, accessibility, and policy insight for non-technical stakeholders.',
-      image: './images/project-nyc-ui.svg',
+      image: './images/project-nyc-ui.png',
       technologies: ['Figma', 'UX Research', 'Dashboards', 'Data Viz', 'Product Design'],
       company: 'Product / Analytics',
       type: 'UI / Design',
       year: '2026',
       'live link':
-        'https://www.figma.com/design/rVIXTO9Z9uJnxOhFaHh0q9/IDE490?node-id=0-1&t=yA4fpwxLTVCZ4Cer-1',
+        'https://www.figma.com/proto/rVIXTO9Z9uJnxOhFaHh0q9/IDE490?node-id=2-8&p=f&t=aDmMZ2dxtey79iCN-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
       'source link': '#',
     },
     {
@@ -75,13 +75,13 @@ document.addEventListener('DOMContentLoaded', () => {
       name: 'EEG Translation → Avatar Command System',
       description:
         'An EEG-to-intent translation prototype that maps specific mental states into actionable commands. I focused on the “augmented output” layer: turning deep learning model outputs into reliable in-app actions that drive an avatar (VR/AR + gaming-style controls).',
-      image: './images/project-eeg.svg',
+      image: './images/project-eeg.png',
       technologies: ['Figma', 'GitHub', 'Deep Learning', 'HCI', 'Prototyping'],
       company: 'Research / Prototype',
       type: 'UI + Systems',
       year: '2025–2026',
       'live link':
-        'https://www.figma.com/design/BfEPkZ5Nt219JJT9vtkIIr/Analytics-%E2%80%94-Landing-Page-Design--Community-?node-id=0-1&t=Rla1uhyUrRjcEVuC-1',
+        'figma.com/proto/BfEPkZ5Nt219JJT9vtkIIr/Analytics-—-Landing-Page-Design--Community-?node-id=0-1&p=f&t=UiPwvDfbFUKOZu5D-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
       'source link': 'https://github.com/Alex-Anthony/CS-SSW-555-Team-13-TechTitans-Project2',
     },
     {
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
       company: 'FIU / NSF REU',
       type: 'BioSensing',
       year: '2024',
-      'live link': './images/Poster-REU-2.pdf',
+      'live link': './images/Poster-REU-2.png',
       'source link':
         'https://github.com/Alex-Anthony/Cufless-Blood-Pressure-Monitoring-Research-Collection',
     },
@@ -240,3 +240,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
