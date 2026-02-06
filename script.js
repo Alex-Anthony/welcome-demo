@@ -22,18 +22,19 @@ const formMessage = document.querySelector('#message');
 const emailErrorMsg = document.querySelector('#email-error-msg');
 
 const projectCards = [
-    {
-    name: 'UI Case Study: Marketplace Redesign',
-    description:
-      'A UI/UX-focused redesign that improves navigation, readability, and conversion with a clean component-driven layout.',
-    image: './images/project1.svg', // swap with your screenshot path
-    technologies: ['Figma', 'UI Design', 'Design Systems', 'Accessibility'],
-    company: 'Personal Project',
-    type: 'UI / Product',
-    year: '2026',
-    'live link': '#', // add your live link later
-    'source link': '#', // add repo link later (or keep #)
-  },
+   {
+  name: 'Artist Portfolio — Figma UI Mockup',
+  description:
+    'Portfolio website concept for a digital artist: bold hero, character-focused gallery layout, and a clean navigation flow optimized for showcasing portrait work.',
+  image: './images/project-artist-figma.svg', // screenshot of your mockup
+  technologies: ['Figma', 'UI Design', 'Typography', 'Layout'],
+  company: 'Client Mockup',
+  type: 'UI / Portfolio',
+  year: '2025',
+  'live link': 'https://www.figma.com/proto/DzyPgbhChVEae7884CSSeg/DraftOne?node-id=0-1&t=RZc3meqzKPadbjnk-1',
+  'source link': '#',
+},
+
   {
     name: 'NYC Property Valuation — Monte Carlo + ML Pipeline',
     description:
@@ -224,6 +225,7 @@ formMessage.addEventListener('change', () => {
   storage.setItem('formData', JSON.stringify(inputData));
 
 });
+
 
 
 
