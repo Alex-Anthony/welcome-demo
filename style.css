@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Texturina', serif;
   background-color: #f8f9fa;
   margin: 0;
   overflow-x: hidden;
@@ -909,4 +909,5 @@ body.active {
     border-radius: 2px;
   }
 }
+
 
