@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'source link': 'https://github.com/Alex-Anthony',
     },
     {
-      name: 'NYC Property Valuation — Monte Carlo + ML Pipeline',
+      name: 'NYC Contingency Revenue Valuation — Monte Carlo + ML Pipeline',
       description:
         'End-to-end valuation analysis using NYC property/tax data, with simulation-driven “future worlds,” model evaluation, and insights on volatility and equity.',
       image: './images/project-nyc-valuation.png',
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
       type: 'Product Analytics',
       year: '2023–2024',
       'live link': './images/_ISE490__Real_Estate_Prediction_in_NYC.pdf',
-      'source link': 'https://github.com/Alex-Anthony/NYC-Real-Estate-Valuation-Model',
+      'source link': 'https://github.com/Alex-Anthony/NYC-Contingency-Revenue-Project',
     },
     {
       name: 'NYC Property Valuation Dashboard — Product UI',
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
       year: '2026',
       'live link':
         'https://www.figma.com/proto/rVIXTO9Z9uJnxOhFaHh0q9/IDE490?node-id=2-8&p=f&t=aDmMZ2dxtey79iCN-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
-      'source link': '#',
+      'source link': 'https://github.com/Alex-Anthony/NYC-Real-Estate-Valuation-Model',
     },
     {
       name: 'Laguna Prototype — Hybrid Drivetrain Decision Support',
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
       type: 'UI + Systems',
       year: '2025–2026',
       'live link':
-        'https://www.figma.com/proto/BfEPkZ5Nt219JJT9vtkIIr/Analytics-%E2%80%94-Landing-Page-Design--Community-?node-id=1-178&p=f&t=D6XuD8OIG7vf0tB2-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
+        'https://www.figma.com/proto/BfEPkZ5Nt219JJT9vtkIIr/Analytics-%E2%80%94-Landing-Page-Design--Community-?node-id=1-178&p=f&t=ja2IdkFugcUVFJ3B-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
       'source link': 'https://github.com/Alex-Anthony/CS-SSW-555-Team-13-TechTitans-Project2',
     },
     {
@@ -250,6 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
 
 
 
