@@ -774,46 +774,86 @@ body.active {
   border-bottom: 1px solid rgba(64, 64, 64, 0.35);
 }
 
-/* ===== Gold swoop decoration ===== */
+/* ========================================
+   Gold swoop hero decoration (FINAL)
+   ======================================== */
 
 #headline {
   position: relative;
   overflow: hidden;
 }
 
+/* two decorative swoops */
 #headline::before {
   content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
-  z-index: 0;
 
-  background: url("./images/SmallGold.PNG") no-repeat;
-  background-size: 140% auto;
-  background-position: right -280px top -120px;
+  /* above background, below text */
+  z-index: 2;
+
   opacity: 0.9;
+
+  background-image:
+    url("./images/SmallGold.PNG"),
+    url("./images/SmallGold.PNG");
+
+  background-repeat: no-repeat, no-repeat;
+
+  /* mobile sizing */
+  background-size:
+    130% auto,
+    100% auto;
+
+  /* top-right + bottom-left */
+  background-position:
+    right -260px top 100px,
+    left -220px bottom -120px;
 }
 
+/* keep text above swoops */
 #headline-content {
   position: relative;
-  z-index: 1;
+  z-index: 3;
 }
+
+
+/* ================= DESKTOP ================= */
 
 @media (min-width: 768px) {
   #headline::before {
-    background-image: url("./images/medGold.PNG");
-    background-size: 85% auto;
-    background-position: right -220px top 20px;
+    background-image:
+      url("./images/medGold.PNG"),
+      url("./images/medGold.PNG");
+
+    background-size:
+      85% auto,
+      65% auto;
+
+    background-position:
+      right -180px top 80px,
+      left -140px bottom -140px;
   }
 }
 
 @media (min-width: 1200px) {
   #headline::before {
-    background-image: url("./images/LargeGold.PNG");
-    background-size: 70% auto;
-    background-position: right -180px top 40px;
+    background-image:
+      url("./images/SmallGold.PNG"),
+      url("./images/SmallGold.PNG");
+
+    background-size:
+      70% auto,
+      50% auto;
+
+    background-position:
+      right -120px top 100px,
+      left -120px bottom -160px;
   }
 }
+
+
 
 
 
