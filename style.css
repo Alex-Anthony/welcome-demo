@@ -830,7 +830,7 @@ body.active {
 
 @media (min-width: 768px) {
   #headline::before {
-    background-image: url("./images/MedGold.png");
+    background-image: url("./images/medGold.png");
     background-size: 85% auto;
     background-position: right -220px top 20px;
   }
@@ -843,6 +843,7 @@ body.active {
     background-position: right -180px top 40px;
   }
 }
+
 
 
 
