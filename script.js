@@ -137,6 +137,30 @@ closeBtn.addEventListener('click', () => {
   popupBg.classList.remove('active');
 });
 
+// Skills accordion (matches existing tab visuals)
+document.querySelectorAll('#skills .skill-btn').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const panel = btn.closest('li').nextElementSibling; // .skill-panel
+    const isOpen = panel.classList.contains('open');
+
+    // close all
+    document.querySelectorAll('#skills .skill-panel').forEach((p) => p.classList.remove('open'));
+    document.querySelectorAll('#skills .skill-btn').forEach((b) => {
+      b.setAttribute('aria-expanded', 'false');
+      const icon = b.querySelector('i');
+      if (icon) icon.className = 'fa-solid fa-chevron-right';
+    });
+
+    // open clicked
+    if (!isOpen) {
+      panel.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+      const icon = btn.querySelector('i');
+      if (icon) icon.className = 'fa-solid fa-chevron-down';
+    }
+  });
+});
+
 
 
 
