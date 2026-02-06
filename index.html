@@ -148,55 +148,63 @@
       </div>
     
       <div id="skills">
-        <ul>
-          <li class="skill">
-            <span>Languages</span>
-            <span><i class="fa-solid fa-chevron-down"></i></span>
+        <ul class="skills-accordion">
+      
+          <li class="skill skill-toggle">
+            <button type="button" class="skill-btn" aria-expanded="true">
+              <span>Languages</span>
+              <span class="chev"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
           </li>
-          <li>
-            <ul class="skill-languages">
-              <li class="language">JavaScript</li>
-              <li class="language">HTML</li>
-              <li class="language">CSS</li>
-              <li class="language">Python</li>
-              <li class="language">SQL</li>
+          <li class="skill-panel open">
+            <ul class="skill-tags">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Python</li>
+              <li>SQL</li>
             </ul>
           </li>
-    
-          <li class="skill">
-            <span>Frameworks & Libraries</span>
-            <span><i class="fa-solid fa-chevron-right"></i></span>
+      
+          <li class="skill skill-toggle">
+            <button type="button" class="skill-btn" aria-expanded="false">
+              <span>Frameworks & Libraries</span>
+              <span class="chev"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
           </li>
-          <li>
-            <ul class="skill-languages">
-              <li class="language">Pandas</li>
-              <li class="language">NumPy</li>
-              <li class="language">scikit-learn</li>
-              <li class="language">Matplotlib</li>
-              <li class="language">Seaborn</li>
+          <li class="skill-panel">
+            <ul class="skill-tags">
+              <li>pandas</li>
+              <li>NumPy</li>
+              <li>scikit-learn</li>
+              <li>Matplotlib</li>
             </ul>
           </li>
-    
-          <li class="skill">
-            <span>Tools</span>
-            <span><i class="fa-solid fa-chevron-right"></i></span>
+      
+          <li class="skill skill-toggle">
+            <button type="button" class="skill-btn" aria-expanded="false">
+              <span>Tools</span>
+              <span class="chev"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
           </li>
-          <li>
-            <ul class="skill-languages">
-              <li class="language">Git</li>
-              <li class="language">Agile/Scrum</li>
-              <li class="language">CI/CD</li>
-              <li class="language">Ui/UX</li>
-              <li class="language">AWS</li>
-              <li class="language">Figma</li>
+          <li class="skill-panel">
+            <ul class="skill-tags">
+              <li>Git</li>
+              <li>Agile/Scrum</li>
+              <li>Tableau</li>
+              <li>AWS</li>
+              <li>CI/CD</li>
             </ul>
           </li>
+      
         </ul>
       </div>
+
     </section> 
     <script src="script.js"></script>
   </body>
 </html>
+
 
 
 
