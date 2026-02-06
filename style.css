@@ -788,7 +788,7 @@ body.active {
   pointer-events: none;
   z-index: 0;
 
-  background: url("./images/SmallGold.png") no-repeat;
+  background: url("./images/SmallGold.PNG") no-repeat;
   background-size: 140% auto;
   background-position: right -280px top -120px;
   opacity: 0.9;
@@ -801,7 +801,7 @@ body.active {
 
 @media (min-width: 768px) {
   #headline::before {
-    background-image: url("./images/medGold.png");
+    background-image: url("./images/medGold.PNG");
     background-size: 85% auto;
     background-position: right -220px top 20px;
   }
@@ -809,11 +809,12 @@ body.active {
 
 @media (min-width: 1200px) {
   #headline::before {
-    background-image: url("./images/LargeGold.png");
+    background-image: url("./images/LargeGold.PNG");
     background-size: 70% auto;
     background-position: right -180px top 40px;
   }
 }
+
 
 
 
