@@ -5,7 +5,7 @@ Welcome to the source for my personal portfolio website:
 
 ## About
 
-This is the codebase for my GitHub Pages portfolio. The site showcases my background in UI-driven software, engineering management, and my approach to building clean, user-centered products. It highlights my work, my skills, and ways to connect with me.:contentReference[oaicite:1]{index=1}
+This is the codebase for my GitHub Pages portfolio. The site showcases my background in UI-driven software, engineering management, and my approach to building clean, user-centered products. It highlights my work, my skills, and ways to connect with me.
 
 ## What’s Included
 
@@ -35,4 +35,5 @@ To run or preview this project locally:
 1. **Clone the repo**
    ```sh
    git clone https://github.com/alex-anthony/welcome-demo.git
+
 
